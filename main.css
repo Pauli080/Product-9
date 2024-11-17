@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+
+
+
+* {
+   
+    box-sizing: border-box;
+}
+
+
+.about {
+    display: none;
+}
+
+.futuristic {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 40px;
+    
+}
+
+.Minimalist{
+    display: flex;
+    
+   font-size: 4rem;
+   position: absolute;
+   bottom: 70%;
+   left: 27%;
+   /* width: 20rem; */
+   
+   
+   
+ }
+
+.first-image {
+    display: none;
+}
+
+.second-image {
+    display: none;
+}
+
+.Natural-wood {
+    font-size: larger;
+
+}
+
+.Natural-wood p {
+    padding: 10px;
+    font-size: 2rem;
+    border-bottom: 1px solid;
+}
+
+.accessories {
+    display: flex;
+}
+
+.Chair--1 {
+    width: 15rem;
+}
+
+.Chair--2 {
+    width: 7rem;
+    height: 15rem;
+}
+
+.Chair {
+    display: none;
+}
+
+.long-chair-light {
+    display: flex;
+    
+}
+
+.long-chair {
+    width: 33%;
+}
+
+.wood-chair-black {
+    width: 33%;
+}
+
+.light {
+    width: 33%;
+}
+
+.chair-mirror {
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.wood-chair {
+    width: 50%;
+}
+
+.mirrors-b {
+    width: 50%;
+}
+
+.make {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 95rem;
+    left: 37%;
+    
+  }
+
+  .environtment-2 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 97rem;
+    left: 17%;
+  }
+
+  .environtment {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 99rem;
+    left: 47%;
+  }
+
+  span {
+    color: brown;
+  }
+
+
+
+   @media (min-width: 40rem) {
+   
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about {
+        display: flex;
+    }
+
+    .about p {
+        margin: 2rem;
+        width: 7rem;
+    }
+
+    .futuristic {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        border: 1px solid;
+        margin-top: 40px;
+        
+    }
+
+    .image-tables {
+        width: 50rem;
+        background: rgb(245, 238, 228);
+    }
+    
+    .Minimalist{
+       display: flex;
+       
+      font-size: 5rem;
+      position: absolute;
+      bottom: 30%;
+      left: 47%;
+      width: 25rem;
+      
+      
+      
+    }
+    
+    .our-filosofy {
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-end;
+         width: 30rem;
+         font-size: larger;
+         margin: 20px;
+         
+    }
+    
+    .our-filosofy h4 {
+        font-size: 30px;
+        margin: 10px 10px 10px 0px;
+    }
+    
+    .we-use-guality {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .Lorem {
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        
+    }
+
+    .we-use-guality h3 {
+        margin: 20px;
+        font-size: 3rem;
+    }
+    
+    .Natural-wood {
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        width: 30rem;
+        
+    }
+    
+    .Natural-wood p {
+        
+        font-size: 3rem;
+        border-bottom: 1px solid;
+    }
+    
+    .second-section {
+        display: flex;
+    }
+    
+    .first-image {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .second-image {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .playwood {
+        width: 15rem;
+        height: 17rem;
+        margin: 30px;
+       
+    }
+    
+    .metal {
+        height: 20rem;
+        width: 25rem;
+        margin: 30px;
+        margin-left: 90px;
+    }
+    
+    .eco-Leather {
+        width: 15rem;
+        margin: 30px;
+        margin-left: 110px;
+    }
+    
+    .natural-wood {
+        
+        margin: 30px;
+        margin-top: 110px;
+        width: 12rem;
+        height: 10rem;
+    }
+    
+    .category {
+        display: flex;
+    }
+
+    .category h3 {
+        font-size: 3rem;
+        margin: 10px;
+    }
+    
+    .category p {
+        margin: 10px;
+    }
+    
+    .Chair {
+       display: flex;
+       flex-direction: column;
+        width: 15rem;
+        margin-left: 90px;
+    }
+    
+    .Chair--1 {
+        width: 15rem;
+        margin-left: 3rem;
+        
+    }
+
+    .Chair--1 p {
+        margin-left: 3rem;
+    }
+
+    .Chair--2 {
+        width: 15rem;
+        margin-left: 3rem;
+    }
+    
+    .accessories {
+        display: flex;
+    }
+    
+    .wood-chair-black {
+        width: 35rem;
+    }
+    
+    .long-chair {
+       
+         margin-left: 90px;
+    }
+    
+    .light {
+        width: 15rem;
+        margin-left: 90px;
+    }
+    
+    .wood-chair {
+        width: 35rem;
+    }
+    
+    .mirrors-b {
+        width: 35rem;
+        margin: 10px;
+    }
+    
+    .chair-mirror {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    
+    .make {
+      font-size: 5rem;
+      position: absolute;
+      top: 130rem;
+      left: 37%;
+      
+    }
+    
+    .environtment-2 {
+      font-size: 5rem;
+      position: absolute;
+      top: 135rem;
+      left: 27%;
+    }
+    
+    .environtment {
+        font-size: 5rem;
+        position: absolute;
+        top: 140rem;
+        left: 47%;
+      }
+    
+      span {
+        color: brown;
+      }
+  } 
